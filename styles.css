@@ -13,13 +13,27 @@ body {
     background: rgb(119, 118, 118);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(252, 251, 251, 0.897);
+    box-shadow: 0 0 10px rgba(173, 173, 173, 0.897);
+}
+
+.laps-container {
+    background: rgb(129, 128, 128);
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+h1, h2 {
+    color: rgb(8, 8, 8);
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #screen {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #fdf9f9;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -69,8 +83,10 @@ button {
 
 #laps {
     text-align: center;
+    color: white;
     list-style: none;
     padding: 0;
+    margin-top: 0;
 }
 
 #laps li {

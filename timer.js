@@ -16,7 +16,7 @@ start.addEventListener('click', () => {
     } else {
         lastTime = Date.now() - elapsedTime;
         timer = setInterval(updateDisplay, 10);
-        start.textContent = 'Pausar';
+        start.textContent = ' Pausar ';
     }
     isRunning = !isRunning;
 });
@@ -27,7 +27,10 @@ reset.addEventListener('click', () => {
     screen.textContent = '00:00:00.000';
     start.textContent = 'Iniciar';
     isRunning = false;
+    lapsHistory.innerHTML = '';
 });
+
+
 
 lap.addEventListener('click', () => {
     if (elapsedTime > 0) {
